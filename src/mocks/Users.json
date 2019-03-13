@@ -1,0 +1,68 @@
+{
+  "Users": [
+    {
+      "id": 1,
+      "firstName": "Ivan",
+      "lastName": "Melnikov",
+      "position": "Web developer",
+      "employmentStatus": "Employee",
+      "department_id": 1,
+      "jobFunction": "software engineer",
+      "photo": "img",
+      "phoneNumber": "+3752955511122",
+      "skype": "ivan_m",
+      "email": "ivan_melnikov@itrex.com",
+      "linkedin": "ivan_m",
+      "personalData_id": 1,
+      "vacations_id": 1
+    },
+    {
+      "id": 2,
+      "firstName": "Anton",
+      "lastName": "Lomonosov",
+      "position": "Web developer",
+      "employmentStatus": "Employee",
+      "department_id": 1,
+      "jobFunction": "software engineer",
+      "photo": "img",
+      "phoneNumber": "+3752955513322",
+      "skype": "anton_lomonosov",
+      "email": "anton_lomonosov@itrex.com",
+      "linkedin": "anton_lomonosov",
+      "personalData_id": 2,
+      "vacations_id": null
+    },
+    {
+      "id": 3,
+      "firstName": "Evgeniy",
+      "lastName": "Starovoitov",
+      "position": "Android developer",
+      "employmentStatus": "Employee",
+      "department_id": 2,
+      "jobFunction": "software engineer",
+      "photo": "img",
+      "phoneNumber": "+3752955621122",
+      "skype": "evgeniy_starovoitov",
+      "email": "evgeniy_starovoitov@itrex.com",
+      "linkedin": "evgeniy_starovoitov",
+      "personalData_id": 3,
+      "vacations_id": null
+    },
+    {
+      "id": 4,
+      "firstName": "Maxim",
+      "lastName": "Reznik",
+      "position": "Android developer",
+      "employmentStatus": "Employee",
+      "department_id": 2,
+      "jobFunction": "software engineer",
+      "photo": "img",
+      "phoneNumber": "+3753315511129",
+      "skype": "maxim_reznik",
+      "email": "maxim_reznik@itrex.com",
+      "linkedin": "maxim_reznik",
+      "personalData_id": 4,
+      "vacations_id": 2
+    }
+  ]
+}

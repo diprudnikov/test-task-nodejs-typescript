@@ -1,0 +1,33 @@
+{
+  "name": "test-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc -p ./ -w",
+    "test": "Running tests",
+    "dev-server": "concurrently \"npm run build\" \"nodemon ./dist/index.js\"",
+    "json-servers": "concurrently \"node dist/json-servers/user-json-server.js\" \"node dist/json-servers/department-json-server.js\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  },
+  "devDependencies": {
+    "@types/debug": "^4.1.2",
+    "@types/express": "^4.16.1",
+    "@types/morgan": "^1.7.35",
+    "@types/node": "^11.11.0",
+    "concurrently": "^4.1.0",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.10",
+    "ts-node": "^8.0.3",
+    "tslint": "^5.13.1",
+    "tslint-config-airbnb": "^5.11.1",
+    "typescript": "^3.3.3333"
+  }
+}

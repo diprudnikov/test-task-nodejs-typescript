@@ -1,0 +1,19 @@
+# Logs
+logs
+*.log
+.idea
+/dist
+npm-debug.log*
+
+# Coverage directory used by tools like istanbul
+coverage
+
+# Dependency directories
+node_modules/
+
+# Typescript v1 declaration files
+typings/
+
+# Optional npm cache directory
+.npm
+

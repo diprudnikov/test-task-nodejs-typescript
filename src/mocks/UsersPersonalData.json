@@ -1,0 +1,56 @@
+{
+  "UsersPersonalData": [
+    {
+      "id": 1,
+      "dob": "1990-03-13T08:37:18.237Z",
+      "address": "Sverdlova 3",
+      "mobilePhone": "+3752955511122",
+      "personalEmail": "ivan123@gmail.com",
+      "familyStatus": "single",
+      "children": "none",
+      "emergencyContact": "Helen +3753312345611",
+      "education": "BSU",
+      "languages": "russian, english",
+      "drivingLicence_id": 1
+    },
+    {
+      "id": 2,
+      "dob": "1991-03-13T08:37:18.237Z",
+      "address": "Lenina 32",
+      "mobilePhone": "+3752955513322",
+      "personalEmail": "artur123@gmail.com",
+      "familyStatus": "single",
+      "children": "none",
+      "emergencyContact": "Helen +3753312345622",
+      "education": "BSU",
+      "languages": "russian, english",
+      "drivingLicence_id": null
+    },
+    {
+      "id": 3,
+      "dob": "1992-05-13T08:37:18.237Z",
+      "address": "Kuprevicha 13",
+      "mobilePhone": "+3752955621122",
+      "personalEmail": "ivan123@gmail.com",
+      "familyStatus": "single",
+      "children": "none",
+      "emergencyContact": "Anton +3752911145611",
+      "education": "BSU",
+      "languages": "russian, english",
+      "drivingLicence_id": 2
+    },
+    {
+      "id": 4,
+      "dob": "1993-04-13T08:37:18.237Z",
+      "address": "Sverdlova 36",
+      "mobilePhone": "+3753315511129",
+      "personalEmail": "ivan123@gmail.com",
+      "familyStatus": "married",
+      "children": "none",
+      "emergencyContact": "Ivan +3753399945621",
+      "education": "BSUIR",
+      "languages": "russian, english",
+      "drivingLicence_id": null
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "Offices": [
+    {
+      "id": 1,
+      "name": "ITRex",
+      "headOfOffice_id": 4,
+      "location_id": 1
+    }
+  ]
+}

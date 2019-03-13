@@ -1,0 +1,18 @@
+{
+  "Vacations": [
+    {
+      "id": 1,
+      "startDate": "2019-03-13T08:37:18.237Z",
+      "toDate": "2019-03-14T08:37:18.237Z",
+      "approveStatus": "Approved",
+      "vacationsDaysLeft": 1
+    },
+    {
+      "id": 2,
+      "startDate": "2019-03-13T08:37:18.237Z",
+      "toDate": "2019-03-15T08:37:18.237Z",
+      "approveStatus": "Approved",
+      "vacationsDaysLeft": 2
+    }
+  ]
+}

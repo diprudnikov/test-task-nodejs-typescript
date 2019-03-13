@@ -1,0 +1,10 @@
+{
+  "Locations": [
+    {
+      "id": 1,
+      "countryCode": "1",
+      "timezone": "UTC",
+      "city": "Minsk"
+    }
+  ]
+}
