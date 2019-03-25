@@ -1,6 +1,8 @@
 import * as express from 'express';
 import * as logger from 'morgan';
-import EmployeesController from './controllers/employees';
+import EmployeeController from './controllers/employee.controller';
+import DepartmentRepository from './repositories/department.repository';
+import UserRepository from './repositories/user.repository';
 
 class App {
   public express: express.Application;
@@ -18,7 +20,10 @@ class App {
   }
 
   private setRoutes(): void {
-    this.express.use('/api/employees', new EmployeesController().router);
+    const departmentRepository = new DepartmentRepository();
+    const userRepository = new UserRepository();
+    const employeeController = new EmployeeController(departmentRepository, userRepository);
+    this.express.use('/api/employees', employeeController.router);
   }
 }
 

@@ -1,5 +1,3 @@
-import DrivingLicense from './DrivingLicense';
-
 export default interface UserPersonalData {
   id: number;
   dob: Date;
@@ -11,5 +9,5 @@ export default interface UserPersonalData {
   emergencyContact: string;
   education: string;
   languages: string;
-  drivingLicence?: DrivingLicense;
+  drivingLicence_id?: number;
 }
